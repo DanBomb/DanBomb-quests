@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Quest 1
+  - Quest 2
+  - Quest 3
+  - QuestMaster
+  - QuestMasterPlatform
+  - Ground
   layers:
   - Default
   - TransparentFX
