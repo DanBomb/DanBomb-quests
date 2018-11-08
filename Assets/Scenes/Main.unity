@@ -871,7 +871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eebadbe1dfb3ce04f9d8daf200d95bfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 5
   questmastertext: {fileID: 89918971}
   questtext: {fileID: 843955429}
 --- !u!54 &1097593473

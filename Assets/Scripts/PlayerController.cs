@@ -63,24 +63,32 @@ public class PlayerController : MonoBehaviour {
 			}
 		}
 		else if (other.gameObject.CompareTag("Quest 1") && questscomplete == 0 && quest1) {
+
 			questmastertext.text = "";
 			questtext.text = "Quest 1 complete. Congratulations! You found the key!";
 			questscomplete += 1;
+
 		}
 		else if (other.gameObject.CompareTag("Quest 2") && questscomplete == 1 && quest2) {
+
 			questmastertext.text = "";
 			questtext.text = "Quest 2 complete. Congratulations! You unlocked the door!";
 			questscomplete += 1;
+
 		}
 		else if (other.gameObject.CompareTag("Quest 3") && questscomplete == 2 && quest3) {
+
 			questmastertext.text = "";
 			questtext.text = "Quest 3 complete. Congratulations! You beat the boss!";
 			questscomplete += 1;
+
 		}
 		else if (other.gameObject.CompareTag("Finish") && questscomplete == 3 && quest4) {
+
 			questmastertext.text = "";
 			questtext.text = "You entered the door. Congratulations! You found the treasure and won the game!";
 			questscomplete += 1;
+			
 		}
 	}
 }
